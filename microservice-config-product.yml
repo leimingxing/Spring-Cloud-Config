@@ -36,7 +36,7 @@ eureka:
     instanceId: ${spring.application.name}:${server.port}
     preferIpAddress: true
 emp:
-  name: zhangsan
+  name: lisi
 ---
 server:
   port: 8001
@@ -70,4 +70,4 @@ eureka:
     instanceId: ${spring.application.name}:${server.port}
     preferIpAddress: true
 emp:
-  name: zhangsan
+  name: lisi
